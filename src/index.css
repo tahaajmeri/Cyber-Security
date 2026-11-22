@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050805;
+  color: #d7ffd7;
+  font-family: "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: #39ff88;
+  color: #000;
+}
+
+.green {
+  color: #39ff88 !important;
+}
+
+.yellow {
+  color: #e4df64 !important;
+}
+
+main {
+  min-height: 70vh;
+}

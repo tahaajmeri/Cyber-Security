@@ -1,0 +1,104 @@
+/* Custom Matrix/Hacker Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&display=swap');
+
+/* Header Dark Background */
+.hacker-navbar {
+  background-color: #0d0221 !important;
+  border-bottom: 2px solid #00ff66;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+  font-family: 'Fira Code', monospace;
+}
+
+/* Hacker Style Gamer Brand/Logo */
+.hacker-logo {
+  color: #00ff66 !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 20px #00ff66;
+  transition: all 0.3s ease;
+}
+
+.hacker-logo:hover {
+  color: #ff0055 !important;
+  text-shadow: 0 0 5px #ff0055, 0 0 10px #ff0055, 0 0 20px #ff0055;
+}
+
+/* Nav Links Color */
+.hacker-navbar .nav-link {
+  color: #00f0ff !important;
+  margin: 0 5px;
+  transition: color 0.2s ease-in-out;
+}
+
+.hacker-navbar .nav-link:hover {
+  color: #00ff66 !important;
+  text-shadow: 0 0 8px #00ff66;
+}
+
+/* Dropdown Menu Styling */
+.hacker-navbar .dropdown-menu {
+  background-color: #050505;
+  border: 1px solid #00ff66;
+  box-shadow: 0 0 10px rgba(0, 255, 102, 0.4);
+}
+
+.hacker-navbar .dropdown-item {
+  color: #00f0ff;
+  font-family: 'Fira Code', monospace;
+}
+
+.hacker-navbar .dropdown-item:hover {
+  background-color: #00ff66;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Mobile Toggle Button Glow */
+.hacker-navbar .navbar-toggler {
+  border-color: #00ff66;
+}
+
+.hacker-navbar .navbar-toggler-icon {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+/* ... (pichle code ke sabhi steps) ... */
+
+/* Logo image container positioning */
+.hacker-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image styling */
+.navbar-logo {
+  height: 45px; /* Logo ki size optimize karein */
+  width: auto;
+  margin-right: 15px; /* Text se thoda door rakhne ke liye */
+  filter: drop-shadow(0 0 5px #00ff66); /* Logo ko neon glow dene ke liye */
+  transition: all 0.3s ease;
+}
+
+/* Jab logo par mouse jaye to halka sa change */
+.hacker-logo-container:hover .navbar-logo {
+  filter: drop-shadow(0 0 8px #ff0055);
+}
+
+/* Hacker Style Gamer Brand/Logo Text (same as before) */
+.hacker-logo-text {
+  color: #00ff66 !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66;
+}
+
+.hacker-logo-container:hover .hacker-logo-text {
+  color: #ff0055 !important;
+  text-shadow: 0 0 5px #ff0055, 0 0 10px #ff0055;
+}
+
+/* ... (baaki ka custom styling same rahega) ... */
